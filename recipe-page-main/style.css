@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Noto+Sans+JP:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Noto+Sans+JP:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+*
+
+{
+    margin: 20px;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e8db;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    max-width: 600px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.recipe-image {
+    width: 100%;
+    border-radius: 10px;
+}
+h1, h2, h3 {
+    color: #333;
+}
+.prep-time, .ingredients, .instructions, .nutrition {
+    margin-bottom: 20px;
+}
+ul, ol {
+    padding-left: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
